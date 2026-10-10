@@ -25,4 +25,3 @@ Started this project due to fascination on how ODB Scanners work
 - Python
 - OBD-II
 
-

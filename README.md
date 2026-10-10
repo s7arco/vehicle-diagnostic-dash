@@ -7,21 +7,25 @@ Started this project due to fascination on how ODB Scanners work
  
  In development - dashboard is currently being developed using simulated data since I dont own a OBD-II adapter, next stage is to integrate live data.
 
-## Goal Features
+## Completed Features
 - Live vehicle dashboard
-- Simulated real-time data
-- Vehicle speed monitor
-- Coolant temperature monitor 
-- Engline load monitor
-- Throttle position monitor
+- Simulated real-time vehicle data
+- Engine RPM monitoring
+- Vehicle speed monitoring
+- Coolant temperature monitoring
+- Engine load monitoring
+- Throttle position monitoring
 
 ## Planned Features
 - OBD-II integration
 - Live ECU Data
 - Fault Code reading
+- Diagnostics Trouble code reading
+- Vehicle data history
+
 
 ## Tools
 
 - Python
 - OBD-II
-
+- Streamlit

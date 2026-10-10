@@ -10,5 +10,3 @@ def get_vehicle_data():
     } # Generates random values for vehicle info.
 
     return vehicle_data
-
-print(get_vehicle_data(get_vehicle_data["rpm"]))

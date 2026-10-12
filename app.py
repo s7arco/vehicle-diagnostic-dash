@@ -7,6 +7,7 @@ st.title("Vehicle Diagnostics Dashboard")
 def live_dash():
     data = get_vehicle_data()
 
+    st.write("Driving State:", data["state"].capitalize())
     col1, col2, col3 = st.columns(3) # Create 3 colums
     col1.metric("Engine RPM", f"{data['rpm']} RPM") # Displays RPM as metric
     col2.metric("Speed", f"{data['speed']} mph")
